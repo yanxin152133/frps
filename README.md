@@ -20,7 +20,7 @@ dashboard_pwd = admin
 ## 1.3. 运行
 ### 1.3.1. 自定义配置文件
 ```bash
-docker run --name frps --restart=always -it -d -v ~/Github/frpc/frps.ini:/usr/local/frp/frp_0.37.1_linux_amd64/frps.ini -p 7000:7000 -p 7500:7500 -p 5000-5100:5000-5100 yancccccc/frps:latest
+docker run --name frps --restart=always -it -d -v ~/Github/frps/frps.ini:/usr/local/frp/frp_0.37.1_linux_amd64/frps.ini -p 7000:7000 -p 7500:7500 -p 5000-5100:5000-5100 yancccccc/frps:latest
 
 ~/Github/frpc/frps.ini:/usr/local/frp/frp_0.37.1_linux_amd64/frps.ini   本地的frps.ini：容器frps.ini所在的路径
 
